@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import * as THREE from 'three';
 
-function WebGLScene() {
+function Cube() {
   const mountRef = useRef(null);
 
   useEffect(() => {
@@ -42,4 +42,4 @@ function WebGLScene() {
   return <div ref={mountRef} style={{ width: '100%', height: '500px' }} />;
 }
 
-export default WebGLScene;
+export default Cube;
