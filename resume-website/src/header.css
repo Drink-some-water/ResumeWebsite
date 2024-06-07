@@ -1,0 +1,55 @@
+.Header {
+    padding: 20px;
+    background-color: #fdea6e; /* Change as needed */
+  }
+  
+  .Top-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  .Title-container {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  .Title {
+    font-size: 2em;
+    color: #333; /* Change as needed */
+  }
+  
+  .Subtitle {
+    font-size: 1.2em;
+    color: #666; /* Change as needed */
+  }
+  
+  .button-bar {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    margin-right: 150px;
+}
+
+.button-bar button {
+    font-size: 1em;
+    padding: 10px 20px;
+    background-color: #fbde20; /* Change as needed */
+    color: black;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+    transform: skewX(-20deg);
+    margin-right: -10px; /* Adjust as needed */
+}
+
+.button-bar button:hover {
+    background-color: #dabe0c; /* Change as needed */
+}
+
+  
+  
